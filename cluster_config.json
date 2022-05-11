@@ -1,0 +1,63 @@
+{
+    "__default__" :
+    {
+        "m_mem_free" : "10G",
+        "time" : "10:0:0",
+        "err" : "logs/{rule}.log",
+        "account" : "svetlana.lebedeva@mdc-berlin.de",
+        "n" : 1,
+        "m" : "eas",
+        "name" : "{rule}"
+    },
+    "bowtie" :
+    {
+        "n" : 4,
+        "h_vmem" : "10G"
+    },
+    "bowtie_idx" :
+    {
+        "n" : 1,
+        "h_vmem" : "10G"
+    },
+    "bam2fq" :
+    {
+        "h_vmem" : "30G"
+    },
+    "segemehl2" :
+    {
+        "n" : 4,
+        "h_vmem" : "30G"
+    },
+    "sege_idx" :
+    {
+        "n" : 1,
+        "h_vmem" : "70G"
+    },
+    "align" :
+    {
+        "n" : 4,
+        "h_vmem" : "20G"
+    },
+    "star_align" :
+    {
+        "n" : 4,
+        "h_vmem" : "20G"
+    },
+    "star_idx" :
+    {
+        "n" : 4,
+        "h_vmem" : "20G"
+    },
+    "cutadapt" :
+    {
+        "n" : 4
+    },
+    "cutadapt_truseq" :
+    {
+        "n" : 4
+    },
+    "featurecounts" :
+    {
+        "n" : 4
+    }
+}
